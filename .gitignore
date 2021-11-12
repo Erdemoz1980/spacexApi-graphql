@@ -1,2 +1,11 @@
+#dependencies
 node_modules
+node_modules/
+
+# misc
 .env
+.env.local
+
+
+#misc
+.vscode/settings.json
