@@ -39,7 +39,7 @@ const RocketType = new GraphQLObjectType({
     id: { type: GraphQLID },
     name: { type: GraphQLString },
     active: { type: GraphQLBoolean },
-    images: { type: new GraphQLList(GraphQLString) }
+    flickr_images: { type: GraphQLString }
   })
 });
 
